@@ -1,0 +1,376 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: sans-serif;
+    font-weight: 10;
+    /* background-color: black; */
+}
+/* side navigation */
+.side-nav{
+    width: 140px;
+    height: 100vh;
+    position: fixed ;
+}
+.side-nav > img{
+    width: 100%;
+    height: 25vh;  
+    margin-bottom: -4px ; 
+    filter: contrast(0.5);
+}
+
+.navigation{
+    height: 75vh;
+    color: white;
+    background-color: rgb(48, 47, 47);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+}
+.navigation a:first-child{
+    background-color: black;
+}
+.navigation a{
+    padding-top: 15px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;;
+}
+
+.navigation span{
+    font-size: 50px;
+}
+
+.navigation a:hover{
+    background-color: gray;
+}
+/* body */
+.body{
+    margin-left:140px ;
+    background-color: black;
+    width: 73.1%;
+    height: 1000vh;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* big image body */
+
+.fst{
+    padding-top: 50px;
+    background-color: black;
+    height: 230vh;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.fst h1 ,.fst p{
+    color: white;
+    
+}
+.fst h1{
+    font-size: 70px;
+}
+.fst img{
+    width:100%;
+    align-self: center;
+    height: auto;
+}
+/* second section  */
+.scnd{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.scnd h3{
+    font-size: 35px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    width: 150px;
+    border-bottom: 1px solid white;
+}
+.scnd > p{
+    font-weight: 50;
+}
+/* skills */
+.skills{
+    padding-top: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;    
+}
+.skills h3{
+    font-size: 30px;
+    font-weight: 100;
+}
+.skill-intity{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.skill-intity p{
+    color: grey;
+}
+.loading{
+    width: 100%;
+    height: 25px;
+    background-color: white;
+}
+.loaded{
+    background-color: grey;
+    height: 25px;
+}
+
+/* portfolio */
+
+.portfolio{
+    background-color: white;
+    margin-top: 50px;
+    width: 82.8%;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.port{
+    font-size: 8px;
+    font-weight: 100px;
+    text-align: center;
+}
+
+/* cv download */
+
+.cv{
+    margin-top: 50px;
+    height: 50px;
+    width: 200px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.cv  :hover{
+    filter: contrast(0.5);
+}
+
+/* my prices */
+
+.my-prices{
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 150px;
+}
+
+.my-prices > h1{
+    color: white;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 100;
+}
+.prices{
+    width: 100%;
+    display: flex;
+    flex-direction: row ;
+    gap: 20px;
+}
+
+.prices ul{
+    margin-top: 20px;
+    color: black;
+    background-color: white;
+    height: 90vh;
+    text-align: center;
+    width: 50%;
+    padding-bottom: 30px;
+    list-style: none;   
+    cursor: pointer; 
+    filter: contrast(0.5);
+}
+.prices ul:hover{
+    filter: none;
+}
+
+.prices ul li{
+    border-bottom: 1px solid gray;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+}
+
+.prices ul li:first-child{
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: gray;
+
+}
+.prices ul .cost{
+    height: 90px;
+    line-height: 20px;
+    margin-top: 40px;
+}
+.prices ul li:last-child{
+    background-color: rgb(212, 209, 209);
+    height: 100px;
+}
+.prices ul li button{
+    width: 100px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.prices ul li button:hover{
+    background-color: black;
+    color:white;
+}
+
+.cost{
+    background-color: white;
+
+}
+
+/* reputation */
+.reputation{
+    width: 100%;
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.reputation h1{
+    font-size: 25px;
+    font-weight: 100;
+}
+.reputation .comments{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.reputation .comments img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.comment-body{
+    margin-top: 30px;
+
+}
+.writer{
+    display: flex;
+    gap: 20px;
+}
+
+/* my photos */
+
+.my-photos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 50px;
+    margin-top: 60px;
+}
+
+.my-photos h1{
+    color: white;
+    width: 25%;
+    font-weight: 100;
+    border-bottom: 1px solid white;
+    padding-bottom: 25px;
+}
+
+.photos-container{
+    display: grid;   
+    gap: 5px; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px ;
+}
+
+.photos-container img{
+ 
+    width:100%;
+    height:100%;
+    
+}
+
+.one{
+    grid-area: 1/1/5/1;
+}
+.photos-container .two{
+    grid-area: 1/2/6/3; 
+}
+   
+.photos-container .three{
+    grid-area: 5/1/16/2;
+}
+
+.four{
+    grid-area: 6/2/11/3;
+}
+
+.five{
+    grid-area: 11/2/16/3;
+}
+.six{
+    grid-area: 16/1/19/2;
+}
+.seven{
+    grid-area: 16/2/19/3;
+}
+
+/* contact me */
+.contact-me{
+    color: white;
+    margin-top:50px ;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-me h1 {
+    color: white;
+    width: 25%;
+    font-weight: 100;
+    border-bottom: 1px solid white;
+    padding-bottom: 25px;
+}
+.contact-me p span{
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.contact-me input{
+    height: 50px;
+    padding-left: 10px;
+}
+.contact-me button{
+    height: 50px;
+    width: 25%;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.contact-me button span{
+    position: relative;
+    top: 6px;
+    right: 3px;
+}
+/* footer */
+.footer{
+    color: white;
+    margin-top: 100px;
+}
